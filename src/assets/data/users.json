@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "name": "Aarav Singh",
+    "username": "aarav_23",
+    "avatar": "/images/user1.jpg",
+    "bio": "Frontend dev who never sleeps."
+  },
+  {
+    "id": 102,
+    "name": "Kiara Mehta",
+    "username": "kiaramehta",
+    "avatar": "/images/user2.jpg",
+    "bio": "Designing pixels with perfection."
+  },
+  {
+    "id": 103,
+    "name": "Rohan Verma",
+    "username": "rohan_codes",
+    "avatar": "/images/user3.jpg",
+    "bio": "Turning coffee into backend APIs."
+  },
+  {
+    "id": 104,
+    "name": "Ananya Gupta",
+    "username": "ananya_g",
+    "avatar": "/images/user4.jpg",
+    "bio": "UX enthusiast and part-time poet."
+  },
+  {
+    "id": 105,
+    "name": "Dev Patel",
+    "username": "dev_the_dev",
+    "avatar": "/images/user5.jpg",
+    "bio": "Bug fixer by day, gamer by night."
+  },
+  {
+    "id": 106,
+    "name": "Meera Shah",
+    "username": "meera_sh",
+    "avatar": "/images/user6.jpg",
+    "bio": "AI whisperer and data sorceress."
+  },
+  {
+    "id": 107,
+    "name": "Ishaan Khanna",
+    "username": "ishaan_dev",
+    "avatar": "/images/user7.jpg",
+    "bio": "Cloud architect dreaming in Kubernetes."
+  },
+  {
+    "id": 108,
+    "name": "Sanya Rao",
+    "username": "sanya_rao",
+    "avatar": "/images/user8.jpg",
+    "bio": "Writes clean code and bad jokes."
+  },
+  {
+    "id": 109,
+    "name": "Yuvraj Singh",
+    "username": "yuvraj_s",
+    "avatar": "/images/user9.jpg",
+    "bio": "Trying to center a div since 2018."
+  },
+  {
+    "id": 110,
+    "name": "Priya Nair",
+    "username": "priyanair",
+    "avatar": "/images/user10.jpg",
+    "bio": "Full stack dev with a love for minimal design."
+  }
+]

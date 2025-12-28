@@ -1,0 +1,122 @@
+[
+  {
+    "id": 101,
+    "user_id": 1,
+    "username": "blueberry_user1",
+    "image": "/images/post1.jpeg",
+    "caption": "Vibes only ✨✨",
+    "likes": 230,
+    "comments": [
+      { "user": "kiaramehta", "text": "Love this!" },
+      { "user": "rahulv", "text": "🔥🔥🔥" }
+    ]
+  },
+  {
+    "id": 102,
+    "user_id": 2,
+    "username": "sunset_soul",
+    "image": "/images/post2.jpeg",
+    "caption": "Sunset therapy 🌅",
+    "likes": 480,
+    "comments": [
+      { "user": "aarav27", "text": "Insane view!" },
+      { "user": "sanjana_k", "text": "So peaceful ❤️" }
+    ]
+  },
+  {
+    "id": 103,
+    "user_id": 3,
+    "username": "weekend_viber",
+    "image": "/images/post3.jpeg",
+    "caption": "Weekend vibes 😎",
+    "likes": 315,
+    "comments": [
+      { "user": "kiranx", "text": "Party time!" },
+      { "user": "jaydeep", "text": "Invite next time 😂" }
+    ]
+  },
+  {
+    "id": 104,
+    "user_id": 4,
+    "username": "coffee_lover",
+    "image": "/images/post4.jpeg",
+    "caption": "Coffee and calm ☕",
+    "likes": 150,
+    "comments": [
+      { "user": "neha", "text": "Exactly my mood!" },
+      { "user": "tarun", "text": "Where is this place?" }
+    ]
+  },
+  {
+    "id": 105,
+    "user_id": 5,
+    "username": "mountain_seeker",
+    "image": "/images/post5.jpeg",
+    "caption": "Hiking adventures 🏞️",
+    "likes": 520,
+    "comments": [
+      { "user": "shreya", "text": "Nature goals!" },
+      { "user": "ravi", "text": "Take me with you!" }
+    ]
+  },
+  {
+    "id": 106,
+    "user_id": 6,
+    "username": "style_icon",
+    "image": "/images/post6.jpeg",
+    "caption": "Street style 👟",
+    "likes": 198,
+    "comments": [
+      { "user": "megha", "text": "Outfit on point 🔥" },
+      { "user": "rohit", "text": "Drip!" }
+    ]
+  },
+  {
+    "id": 107,
+    "user_id": 7,
+    "username": "beach_bum",
+    "image": "/images/post7.jpeg",
+    "caption": "Beach days 🏖️",
+    "likes": 620,
+    "comments": [
+      { "user": "karina", "text": "Living the dream!" },
+      { "user": "manan", "text": "So jealous 😭" }
+    ]
+  },
+  {
+    "id": 108,
+    "user_id": 8,
+    "username": "fresh_start",
+    "image": "/images/post8.jpeg",
+    "caption": "New beginnings 🌱",
+    "likes": 260,
+    "comments": [
+      { "user": "isha", "text": "Proud of you!" },
+      { "user": "ananya", "text": "Fresh start 😍" }
+    ]
+  },
+  {
+    "id": 109,
+    "user_id": 9,
+    "username": "dream_chaser",
+    "image": "/images/post9.jpeg",
+    "caption": "Work hard, dream big 💼",
+    "likes": 350,
+    "comments": [
+      { "user": "hitesh", "text": "Motivation level 💯" },
+      { "user": "priya", "text": "Needed this today!" }
+    ]
+  },
+  {
+    "id": 110,
+    "user_id": 10,
+    "username": "foodie_life",
+    "image": "/images/post10.jpeg",
+    "caption": "Food is love 🍕",
+    "likes": 410,
+    "comments": [
+      { "user": "arjun", "text": "Delicious!" },
+      { "user": "mona", "text": "Send recipe pls!" }
+    ]
+  }
+]
