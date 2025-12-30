@@ -20,7 +20,7 @@ const Landingpage = () => {
                     <div className='flex justify-center items-center'>
                         <div className='flex gap-4 h-20 w-96 justify-center items-center'>
                             <button onClick={() => { navigate('/login') }} className='rounded-2xl cursor-pointer bg-pink-400 transform transition duration-300 hover:scale-105 active:scale-95 active:shadow-sm w-28 text-white  h-[40%] shadow-lg/30'>Login</button>
-                            <button onClick={() => { navigate('/signup') }} className='rounded-2xl cursor-pointer bg-pink-400 w-28 h-[40%] transform transition duration-300  hover:scale-105 active:scale-95 active:shadow-sm text-white shadow-lg/30'>Signup</button>
+                            <button onClick={() => { navigate('/register') }} className='rounded-2xl cursor-pointer bg-pink-400 w-28 h-[40%] transform transition duration-300  hover:scale-105 active:scale-95 active:shadow-sm text-white shadow-lg/30'>Signup</button>
                         </div>
                     </div>
                 </div>
