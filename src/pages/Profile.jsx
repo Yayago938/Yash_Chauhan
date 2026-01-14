@@ -6,31 +6,32 @@ const baseurl="https://task4-authdb.onrender.com/auth";
 
 const token = Cookies.get("token");
 const Profile = () => {
-// const [profile, setProfile] = useState(null);
+const [profile, setProfile] = useState(null);
 
-//   useEffect(() => {
-//     const fetchProfile = async () => {
-//       const token = Cookies.get("token");
+  useEffect(() => {
+    const fetchProfile = async () => {
+      const token = Cookies.get("token");
+      console.log("Fetch profile:",token)
+      const res = await fetch(`${baseurl}/me`, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      });
+      console.log("Status",res.status);
+      const data = await res.json();
+      console.log("Response",data);
+      setProfile(data);
+    };
 
-//       const res = await fetch(`${baseurl}/register`, {
-//         headers: {
-//           Authorization: `Bearer ${token}`
-//         }
-//       });
-
-//       const data = await res.json();
-//       setProfile(data);
-//     };
-
-//     fetchProfile();
-//   }, []);
-
+    fetchProfile();
+  }, []);
+  console.log(profile);
   return (
     <div className='flex w-full bg-purple-100 border-b-2 border-b-purple-500'>
       <div className='flex-1'>
         <Sidebar />
       </div>
-      <div className='sm:flex-3 h-screen w-full ml-0  bg-purple-100 max-sm:bg-[linear-gradient(to_bottom_right,#FFD2A8_0%,#B0D0E0_100%)]'>
+      <div className='sm:flex-2 h-screen w-full ml-0  bg-purple-100 max-sm:bg-[linear-gradient(to_bottom_right,#FFD2A8_0%,#B0D0E0_100%)]'>
         <div className='pt-[12vh] sm:pt-0 flex flex-col justify-center mx-2 w-[80%]'>
 
 

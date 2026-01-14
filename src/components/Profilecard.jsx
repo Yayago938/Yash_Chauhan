@@ -14,7 +14,7 @@ const Profilecard = ({ profile }) => {
         
         {/* Name & Username */}
         <h2 className="text-xl font-bold text-gray-800">{profile.name}</h2>
-        <p className="text-sm text-gray-500 mb-3">@{profile.username}</p>
+        <p className="text-sm text-gray-500 mb-3">@{profile.city}</p>
 
         {/* Bio */}
         <p className="text-gray-600 text-sm mb-5 px-4">{profile.bio}</p>

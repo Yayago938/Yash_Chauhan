@@ -3,7 +3,14 @@ import Sidebar from '../components/Sidebar'
 import postdata from '../assets/data/posts.json'
 import Post from '../components/Post'
 import { Link } from 'react-router-dom'
+import Cookies from "js-cookie";
+const baseurl="https://task4-authdb.onrender.com/auth";
+
+
+// const token = Cookies.get("token");
+
 const Home = () => {
+    
 
     return (
         <div>

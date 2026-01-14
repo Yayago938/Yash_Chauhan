@@ -10,12 +10,14 @@ import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Discoverpeople from './pages/Discoverpeople'
 import ProtectedRoute from './components/ProtectedRoute'
+import AuthStateWatcher from './components/AuthStateWatcher'
 
 function App() {
 
 
   return (
     <>
+    <AuthStateWatcher />
       <Routes>
         <Route path="/" element={<Landingpage/>}></Route>
         <Route path="/login" element={<Login/>}></Route>

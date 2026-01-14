@@ -30,7 +30,7 @@ const Login = () => {
         }
 
         setError(newErrors);
-        return Object.keys(newErrors).length === 0; // ✅ true if no errors
+        return Object.keys(newErrors).length === 0; 
     };
 
     const handleSubmit = async (e) => {
@@ -49,9 +49,8 @@ const Login = () => {
     console.log("Server response:",data);
       if (data.success) {
       Cookies.set("token", data.token,{
-        expires:1/1440,
-        secure:"true",
-        sameSite:"strict",
+        expires:1,
+        
       });
         navigate("/home");
     }
